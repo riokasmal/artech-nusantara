@@ -42,7 +42,7 @@
     <main>
         <section class="hero" id="beranda">
             <div class="container">
-                <img class="hero-img" src="img/artechnusantara.png" alt="Artech Nusantara: CCTV Hikvision, access door, PABX dan telepon Panasonic" width="1016" height="250">
+                <img class="hero-img" src="img/artechnusantara.webp" alt="Artech Nusantara: CCTV Hikvision, access door, PABX dan telepon Panasonic" width="1016" height="250">
                 <h1 class="hero-title">Pasang dan service CCTV, PABX, Access Door, dan Jaringan langsung di tempat Anda.</h1>
                 <p class="hero-text">Teknisi kami datang ke rumah, kantor, atau bisnis Anda dan mengerjakannya sampai berfungsi.</p>
                 <div class="hero-actions">
@@ -101,7 +101,6 @@
                 <p class="section-lead">Satu teknisi untuk semua kebutuhan keamanan dan komunikasi Anda.</p>
                 <div class="layanan-grid">
                     <article class="card card-pabx">
-                        <img src="img/pabx.png" alt="">
                         <span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11V9.5C4 7.5 6 6 12 6s8 1.5 8 3.5V11"/><rect x="3" y="11" width="18" height="9" rx="2"/><path d="M8 14.5h.01M12 14.5h.01M16 14.5h.01M8 17.5h.01M12 17.5h.01M16 17.5h.01"/></svg></span>
                         <div class="card-body">
                             <h3>PABX / Telepon</h3>
@@ -109,7 +108,6 @@
                         </div>
                     </article>
                     <article class="card card-cctv">
-                        <img src="img/cctv.png" alt="">
                         <span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h18"/><path d="M6 4v3.5a6 6 0 0 0 12 0V4"/><circle cx="12" cy="10" r="2"/><path d="M12 19v2"/></svg></span>
                         <div class="card-body">
                             <h3>CCTV</h3>
@@ -117,7 +115,6 @@
                         </div>
                     </article>
                     <article class="card card-door">
-                        <img src="img/accessdoor.png" alt="">
                         <span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 21V4a1 1 0 0 1 1-1h9a1 1 0 0 1 1 1v17"/><path d="M2 21h20"/><path d="M12 12h.01"/><rect x="18" y="9" width="3" height="6" rx="1"/></svg></span>
                         <div class="card-body">
                             <h3>Access Door</h3>
@@ -125,7 +122,6 @@
                         </div>
                     </article>
                     <article class="card card-net">
-                        <img src="img/data.png" alt="">
                         <span class="tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="5" rx="1"/><rect x="2" y="16" width="6" height="5" rx="1"/><rect x="16" y="16" width="6" height="5" rx="1"/><path d="M12 8v4M5 16v-4h14v4"/></svg></span>
                         <div class="card-body">
                             <h3>Jaringan</h3>
@@ -244,7 +240,7 @@
             if (event.target.closest('a')) setMenu(false);
         });
 
-        document.addEventListener('click', function (event) {
+        document.addEventListener('pointerdown', function (event) {
             if (!headerContains(event.target)) setMenu(false);
         });
 
